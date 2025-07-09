@@ -1,0 +1,107 @@
+{
+	"c": "MenuScene",
+	"p": {
+		"name": "menu",
+		"__description": "Main menu scene with title and navigation buttons",
+		"backgroundColor": 1513251
+	},
+	":": [
+		{
+			"c": "Text",
+			"p": {
+				"name": "title",
+				"x": 400,
+				"y": 150,
+				"text": "SPACE DEFENDER",
+				"style.fontSize": 48,
+				"style.fontWeight": "bold",
+				"style.fill": "#FFFFFF",
+				"style.align": "center",
+				"anchor.x": 0.5,
+				"anchor.y": 0.5
+			}
+		},
+		{
+			"c": "Text",
+			"p": {
+				"name": "subtitle",
+				"x": 400,
+				"y": 200,
+				"text": "Thing Editor Demo Game",
+				"style.fontSize": 24,
+				"style.fill": "#CCCCCC",
+				"style.align": "center",
+				"anchor.x": 0.5,
+				"anchor.y": 0.5
+			}
+		},
+		{
+			"c": "Button",
+			"p": {
+				"name": "playButton",
+				"x": 400,
+				"y": 320,
+				"anchor.x": 0.5,
+				"anchor.y": 0.5,
+				"image": "textures/player.png",
+				"width": 120,
+				"height": 50
+			},
+			":": [
+				{
+					"c": "Text",
+					"p": {
+						"text": "PLAY",
+						"style.fontSize": 20,
+						"style.fontWeight": "bold",
+						"style.fill": "#FFFFFF",
+						"style.align": "center",
+						"anchor.x": 0.5,
+						"anchor.y": 0.5
+					}
+				}
+			]
+		},
+		{
+			"c": "Button",
+			"p": {
+				"name": "settingsButton",
+				"x": 400,
+				"y": 400,
+				"anchor.x": 0.5,
+				"anchor.y": 0.5,
+				"image": "textures/powerup.png",
+				"width": 120,
+				"height": 50
+			},
+			":": [
+				{
+					"c": "Text",
+					"p": {
+						"text": "SETTINGS",
+						"style.fontSize": 20,
+						"style.fontWeight": "bold",
+						"style.fill": "#FFFFFF",
+						"style.align": "center",
+						"anchor.x": 0.5,
+						"anchor.y": 0.5
+					}
+				}
+			]
+		},
+		{
+			"c": "Text",
+			"p": {
+				"name": "instructions",
+				"x": 400,
+				"y": 500,
+				"text": "Use WASD or Arrow Keys to move\\nSPACE to shoot\\nDestroy enemies to score points!",
+				"style.fontSize": 16,
+				"style.fill": "#AAAAAA",
+				"style.align": "center",
+				"anchor.x": 0.5,
+				"anchor.y": 0.5
+			}
+		}
+	]
+}

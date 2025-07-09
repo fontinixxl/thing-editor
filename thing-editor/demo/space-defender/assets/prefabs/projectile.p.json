@@ -1,0 +1,12 @@
+{
+	"c": "Projectile",
+	"p": {
+		"name": "player-projectile",
+		"image": "textures/projectile.png",
+		"scale.x": 0.3,
+		"scale.y": 0.3,
+		"speed": 500,
+		"damage": 1,
+		"fromPlayer": true
+	}
+}

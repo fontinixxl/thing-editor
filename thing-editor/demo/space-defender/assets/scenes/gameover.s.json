@@ -1,0 +1,121 @@
+{
+	"c": "GameOverScene",
+	"p": {
+		"name": "gameover",
+		"__description": "Game over scene showing final score and restart options",
+		"backgroundColor": 1973790
+	},
+	":": [
+		{
+			"c": "Text",
+			"p": {
+				"name": "gameOverTitle",
+				"x": 400,
+				"y": 150,
+				"text": "GAME OVER",
+				"style.fontSize": 48,
+				"style.fontWeight": "bold",
+				"style.fill": "#FF4444",
+				"style.align": "center",
+				"anchor.x": 0.5,
+				"anchor.y": 0.5
+			}
+		},
+		{
+			"c": "Text",
+			"p": {
+				"name": "finalScore",
+				"x": 400,
+				"y": 220,
+				"text": "Final Score: 0",
+				"style.fontSize": 32,
+				"style.fill": "#FFFFFF",
+				"style.align": "center",
+				"anchor.x": 0.5,
+				"anchor.y": 0.5
+			}
+		},
+		{
+			"c": "Text",
+			"p": {
+				"name": "highScore",
+				"x": 400,
+				"y": 260,
+				"text": "High Score: 0",
+				"style.fontSize": 24,
+				"style.fill": "#FFFF00",
+				"style.align": "center",
+				"anchor.x": 0.5,
+				"anchor.y": 0.5
+			}
+		},
+		{
+			"c": "Button",
+			"p": {
+				"name": "playAgainButton",
+				"x": 400,
+				"y": 350,
+				"anchor.x": 0.5,
+				"anchor.y": 0.5,
+				"image": "textures/player.png",
+				"width": 140,
+				"height": 50
+			},
+			":": [
+				{
+					"c": "Text",
+					"p": {
+						"text": "PLAY AGAIN",
+						"style.fontSize": 18,
+						"style.fontWeight": "bold",
+						"style.fill": "#FFFFFF",
+						"style.align": "center",
+						"anchor.x": 0.5,
+						"anchor.y": 0.5
+					}
+				}
+			]
+		},
+		{
+			"c": "Button",
+			"p": {
+				"name": "menuButton",
+				"x": 400,
+				"y": 420,
+				"anchor.x": 0.5,
+				"anchor.y": 0.5,
+				"image": "textures/powerup.png",
+				"width": 140,
+				"height": 50
+			},
+			":": [
+				{
+					"c": "Text",
+					"p": {
+						"text": "MAIN MENU",
+						"style.fontSize": 18,
+						"style.fontWeight": "bold",
+						"style.fill": "#FFFFFF",
+						"style.align": "center",
+						"anchor.x": 0.5,
+						"anchor.y": 0.5
+					}
+				}
+			]
+		},
+		{
+			"c": "Text",
+			"p": {
+				"name": "thankYou",
+				"x": 400,
+				"y": 520,
+				"text": "Thanks for playing this Thing Editor demo!",
+				"style.fontSize": 16,
+				"style.fill": "#AAAAAA",
+				"style.align": "center",
+				"anchor.x": 0.5,
+				"anchor.y": 0.5
+			}
+		}
+	]
+}

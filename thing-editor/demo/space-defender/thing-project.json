@@ -1,0 +1,12 @@
+{
+	"defaultFont": "Arial, sans-serif",
+	"version": "1.0.0",
+	"__group": "thing-editor-demos",
+	"id": "space-defender.pixel-cave.com",
+	"title": "Space Defender - Thing Editor Demo",
+	"icon": "assets/textures/player.png",
+	"libs": [],
+	"autoFullscreenDesktop": false,
+	"autoFullscreenMobile": true,
+	"__description": "A comprehensive demo game showcasing Thing Editor's features including scene management, animations, sounds, UI, prefabs, and game mechanics."
+}

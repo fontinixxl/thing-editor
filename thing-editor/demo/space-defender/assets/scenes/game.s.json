@@ -1,0 +1,150 @@
+{
+	"c": "GameScene",
+	"p": {
+		"name": "game",
+		"__description": "Main gameplay scene with player, enemies, and UI",
+		"backgroundColor": 1973790
+	},
+	":": [
+		{
+			"c": "GameManager",
+			"p": {
+				"name": "gameManager",
+				"x": 0,
+				"y": 0
+			}
+		},
+		{
+			"c": "Container",
+			"p": {
+				"name": "background",
+				"x": 0,
+				"y": 0
+			},
+			":": [
+				{
+					"c": "DSprite",
+					"p": {
+						"name": "star1",
+						"x": 100,
+						"y": 50,
+						"image": "textures/star.png",
+						"scale.x": 0.5,
+						"scale.y": 0.5
+					}
+				},
+				{
+					"c": "DSprite",
+					"p": {
+						"name": "star2",
+						"x": 300,
+						"y": 150,
+						"image": "textures/star.png",
+						"scale.x": 0.3,
+						"scale.y": 0.3
+					}
+				},
+				{
+					"c": "DSprite",
+					"p": {
+						"name": "star3",
+						"x": 600,
+						"y": 100,
+						"image": "textures/star.png",
+						"scale.x": 0.4,
+						"scale.y": 0.4
+					}
+				},
+				{
+					"c": "DSprite",
+					"p": {
+						"name": "star4",
+						"x": 200,
+						"y": 400,
+						"image": "textures/star.png",
+						"scale.x": 0.6,
+						"scale.y": 0.6
+					}
+				},
+				{
+					"c": "DSprite",
+					"p": {
+						"name": "star5",
+						"x": 700,
+						"y": 300,
+						"image": "textures/star.png",
+						"scale.x": 0.2,
+						"scale.y": 0.2
+					}
+				}
+			]
+		},
+		{
+			"c": "Player",
+			"p": {
+				"name": "player",
+				"image": "textures/player.png",
+				"scale.x": 0.8,
+				"scale.y": 0.8
+			}
+		},
+		{
+			"c": "Container",
+			"p": {
+				"name": "ui",
+				"x": 0,
+				"y": 0
+			},
+			":": [
+				{
+					"c": "Text",
+					"p": {
+						"name": "scoreText",
+						"x": 20,
+						"y": 20,
+						"text": "Score: 0",
+						"style.fontSize": 24,
+						"style.fontWeight": "bold",
+						"style.fill": "#FFFFFF"
+					}
+				},
+				{
+					"c": "Text",
+					"p": {
+						"name": "livesText",
+						"x": 20,
+						"y": 50,
+						"text": "Lives: 3",
+						"style.fontSize": 20,
+						"style.fill": "#FFFFFF"
+					}
+				},
+				{
+					"c": "Button",
+					"p": {
+						"name": "pauseButton",
+						"x": 720,
+						"y": 20,
+						"width": 60,
+						"height": 40,
+						"image": "textures/powerup.png"
+					},
+					":": [
+						{
+							"c": "Text",
+							"p": {
+								"text": "||",
+								"style.fontSize": 18,
+								"style.fontWeight": "bold",
+								"style.fill": "#FFFFFF",
+								"style.align": "center",
+								"anchor.x": 0.5,
+								"anchor.y": 0.5
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
