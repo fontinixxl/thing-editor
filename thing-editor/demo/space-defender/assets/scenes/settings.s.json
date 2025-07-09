@@ -1,0 +1,126 @@
+{
+	"c": "SettingsScene",
+	"p": {
+		"name": "settings",
+		"__description": "Settings scene for audio and controls configuration",
+		"backgroundColor": 1513251
+	},
+	":": [
+		{
+			"c": "Text",
+			"p": {
+				"name": "title",
+				"x": 400,
+				"y": 100,
+				"text": "SETTINGS",
+				"style.fontSize": 36,
+				"style.fontWeight": "bold",
+				"style.fill": "#FFFFFF",
+				"style.align": "center",
+				"anchor.x": 0.5,
+				"anchor.y": 0.5
+			}
+		},
+		{
+			"c": "Text",
+			"p": {
+				"name": "audioLabel",
+				"x": 200,
+				"y": 200,
+				"text": "Audio Volume:",
+				"style.fontSize": 20,
+				"style.fill": "#FFFFFF"
+			}
+		},
+		{
+			"c": "ProgressBar",
+			"p": {
+				"name": "audioSlider",
+				"x": 350,
+				"y": 190,
+				"width": 200,
+				"height": 20,
+				"fillColor": 65280,
+				"borderColor": 16777215,
+				"borderWidth": 2,
+				"value": 0.8
+			}
+		},
+		{
+			"c": "Text",
+			"p": {
+				"name": "controlsLabel",
+				"x": 200,
+				"y": 280,
+				"text": "Controls:",
+				"style.fontSize": 20,
+				"style.fill": "#FFFFFF"
+			}
+		},
+		{
+			"c": "Text",
+			"p": {
+				"name": "controlsText",
+				"x": 200,
+				"y": 320,
+				"text": "Movement: WASD or Arrow Keys\\nShoot: SPACE\\nPause: ESC",
+				"style.fontSize": 16,
+				"style.fill": "#CCCCCC"
+			}
+		},
+		{
+			"c": "Button",
+			"p": {
+				"name": "soundTestButton",
+				"x": 400,
+				"y": 420,
+				"anchor.x": 0.5,
+				"anchor.y": 0.5,
+				"image": "textures/star.png",
+				"width": 120,
+				"height": 50
+			},
+			":": [
+				{
+					"c": "Text",
+					"p": {
+						"text": "TEST SOUND",
+						"style.fontSize": 16,
+						"style.fontWeight": "bold",
+						"style.fill": "#FFFFFF",
+						"style.align": "center",
+						"anchor.x": 0.5,
+						"anchor.y": 0.5
+					}
+				}
+			]
+		},
+		{
+			"c": "Button",
+			"p": {
+				"name": "backButton",
+				"x": 400,
+				"y": 520,
+				"anchor.x": 0.5,
+				"anchor.y": 0.5,
+				"image": "textures/enemy.png",
+				"width": 120,
+				"height": 50
+			},
+			":": [
+				{
+					"c": "Text",
+					"p": {
+						"text": "BACK",
+						"style.fontSize": 20,
+						"style.fontWeight": "bold",
+						"style.fill": "#FFFFFF",
+						"style.align": "center",
+						"anchor.x": 0.5,
+						"anchor.y": 0.5
+					}
+				}
+			]
+		}
+	]
+}

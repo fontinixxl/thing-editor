@@ -1,0 +1,11 @@
+{
+	"c": "Player",
+	"p": {
+		"name": "player-prefab",
+		"image": "textures/player.png",
+		"scale.x": 0.8,
+		"scale.y": 0.8,
+		"speed": 300,
+		"fireRate": 0.2
+	}
+}
